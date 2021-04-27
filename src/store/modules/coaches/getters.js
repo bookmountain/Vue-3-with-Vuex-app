@@ -12,7 +12,6 @@ export default {
   },
   shouldUpdate(state) {
     const lastFetch = state.lastFetch;
-    console.log(!lastFetch);
     if (!lastFetch) {
       return true;
     } else {
